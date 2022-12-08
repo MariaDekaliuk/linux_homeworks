@@ -1,0 +1,84 @@
+   0 whoami
+   1 vasya
+   2 pwd
+   3 ls
+   4 ls --help
+   5 ls --hello
+   6 ls -- hello
+   7 clear
+   8 ls -a
+   9 ls -1
+  10 ls -l
+  11 ls -al
+  12 cd..
+  13 ls
+  14 cd ..
+  15 ls
+  16 cd /h
+  17 cd /home/
+  18 cd..
+  19 cd ..
+  20 cd /s
+  21 cd /sys
+  22 cd ..
+  23 /home
+  24 cd /home
+  25 mkdir user1
+  26 ls
+  27 cd user1
+  28 ls
+  29 mkdir task1
+  30 ls
+  31 cd task1/
+  32 toch file1-txt
+  33 toch file1.txt
+  34 touch file1.txt
+  35 ls
+  36 cd ..
+  37 ls
+  38 tree
+  39 1s -R
+  40 ls -R
+  41 cd
+  42 mkdir /home/user2
+  43 mkdir /home/user2/task2
+  44 touch /home/user2/tas2/file2.txt
+  45 touch /home/user2/task2/file2.txt
+  46 ls
+  47 mkdir /home/user3/task3
+  48 mkdir -p /home/user3/task3
+  49 touch /home/user3/task3/file3.txt
+  50 ls
+  51 mkdir /home/user1/task1/1 /home/user2/task2/2 
+  52 ls
+  53 touch /home/user1/task1/1/1.txt /home/user2/task2/2/2.txt 
+  54 touch /home/user1/task1/1/1.txt /home/user1/task1/1/2.txt 
+  55 tree
+  56 tree /home/
+  57 clear
+  58 mkdir /opt/masha && touch opt/masha.txt 
+  59 mkdir /opt/masha
+  60 mkdir /opt/masha && touch opt/masha.txt 
+  61 tree /opt/
+  62 mkdir /opt/masha && touch /opt/masha.txt 
+  63 tree /opt/
+  64 touch /opt/masha.txt 
+  65 mkdir /opt1/masha && touch /opt1/masha.txt
+  66 tree /opt1/
+  67 mkdir /opt1/masha && touch /opt1/masha/masha.txt
+  68 tree /op1/
+  69 tree /opt1/
+  70 mkdir /opt1/masha
+  71 mkdir /opt/masha && touch /opt/masha/masha.txt 
+  72 tree /opt/
+  73 cp /home/user1/task1/file1.txt /tmp/file.txt
+  74 cp -r /home/user1 /tmp
+  75 tree /tmp/
+  76 rmdir /home/user1
+  77 rmdir --help
+  78 rm --help
+  79 rm /home/user1
+  80 rm -r /home/user1
+  81 rm -rf /home/user1
+  82 rm -rf /home/user1/home/user2/task2/file2.txt
+  83 history > history.txt
